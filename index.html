@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+    <title>service</title>
+</head>
+<body>
+    <header class="header">
+        <div class="burger__menu" id="burger__menu">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="burger" id="burgerNone" onclick="burgerNoneFunc()">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <button class="header__button">Задать вопрос</button>
+                </div>
+            </div>
+            <div class="burger__items">
+                <div class="burger__item">
+                    <h1 class="burger__title burger__titleM">УСЛУГИ</h1>
+                    <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА</a>
+                    <a href="#" class="burger__link">ДИЗАЙН ИНТЕРЬЕРА</a>
+                    <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА КВАРТИР</a>
+                    <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА КОММ. ПОМЕЩЕНИЙ</a>
+                    <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА ЧАСТНЫХ ДОМОВ</a>
+                    <a href="#" class="burger__link">ПАКЕТНЫЙ РЕМОНТ КВАРТИР (ОТДЕЛКА + МАТЕРИАЛЫ)</a>
+                </div>
+                <div class="burger__items-cont">
+                    <div class="burger__item">
+                        <h1 class="burger__title"><a href="#">ПОРТФОЛИО</a></h1>
+                    </div>
+                    <div class="burger__item">
+                        <h1 class="burger__title">МЕДИА</h1>
+                        <a href="#" class="burger__link">101GROUP</a>
+                    </div>
+                    <div class="burger__item">
+                        <h1 class="burger__title">КОМПАНИЯ</h1>
+                        <a href="#" class="burger__link">ИСТОРИЯ</a>
+                        <a href="#" class="burger__link">КОМАНДА
+                        <a href="#" class="burger__link">ОТЗЫВЫ</a>
+                        <a href="#" class="burger__link">КОНТАКТЫ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__inner" id="header__inner">
+                <div class="burger" id="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <button class="header__button">Задать вопрос</button>
+            </div>
+            <div class="burger__menu" id="burger__menu">
+                <div class="burger__items">
+                    <div class="burger__item">
+                        <h1 class="burger__title burger__titleM">УСЛУГИ</h1>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА</a>
+                        <a href="#" class="burger__link">ДИЗАЙН ИНТЕРЬЕРА</a>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА КВАРТИР</a>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА КОММ. ПОМЕЩЕНИЙ</a>
+                        <a href="#" class="burger__link">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА ЧАСТНЫХ ДОМОВ</a>
+                        <a href="#" class="burger__link">ПАКЕТНЫЙ РЕМОНТ КВАРТИР (ОТДЕЛКА + МАТЕРИАЛЫ)</a>
+                    </div>
+                    <div class="burger__items-cont">
+                        <div class="burger__item">
+                            <h1 class="burger__title">ПОРТФОЛИО</h1>
+                            <a href="#" class="burger__link">ПОРТФОЛИО</a>
+                        </div>
+                        <div class="burger__item">
+                            <h1 class="burger__title">МЕДИА</h1>
+                            <a href="#" class="burger__link">101GROUP</a>
+                        </div>
+                        <div class="burger__item">
+                            <h1 class="burger__title">КОМПАНИЯ</h1>
+                            <a href="#" class="burger__link">ИСТОРИЯ</a>
+                            <a href="#" class="burger__link">КОМАНДА
+                            <a href="#" class="burger__link">ОТЗЫВЫ</a>
+                            <a href="#" class="burger__link">КОНТАКТЫ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__info" id="header__info">
+                <div class="header__cont">
+                    <p class="header__subtitle">В Новороссийске, Геленджике и Анапе</p>
+                    <h1 class="header__title">КОМПЛЕКСНЫЙ РЕМОНТ И ОТДЕЛКА</h1>
+                    <p class="header__text">Качественный ремонт от 10.000 руб/м2 с гарантией от 60 месяцев</p>
+                </div>
+                <div class="header__container">
+                    <div class="header__contTwo">
+                        <p class="header__cont-text">Текст акции или лид-магнит. </p>
+                        <button class="header__cont-button">Узнать стоимость ремонта</button>
+                    </div>
+                    <div class="header__cardsMedia">
+                        <div class="header__card">
+                            <img src="img/headerCard1.svg" alt="">
+                            <p class="header__card-text">Прозрачная смета, известная ещё до начала работ</p>
+                        </div>
+                        <div class="header__card">
+                            <img src="img/headerCard2.svg" alt="">
+                            <p class="header__card-text">Чёткое соблюдение сроков работ</p>
+                        </div>
+                        <div class="header__card">
+                            <img src="img/headerCard3.svg" alt="">
+                            <p class="header__card-text">Персональный менеджер проекта</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__cards">
+                <div class="header__card">
+                    <img src="img/headerCard1.svg" alt="">
+                    <p class="header__card-text">Прозрачная смета, известная ещё до начала работ</p>
+                </div>
+                <div class="header__card">
+                    <img src="img/headerCard2.svg" alt="">
+                    <p class="header__card-text">Чёткое соблюдение сроков работ</p>
+                </div>
+                <div class="header__card">
+                    <img src="img/headerCard3.svg" alt="">
+                    <p class="header__card-text">Персональный менеджер проекта</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="service">
+            <div class="container">
+                <h1 class="service__title">Услуги по ремонту</h1>
+                <div class="service__items">
+                    <div class="service__item service__itemBG1">
+                        <div class="service__item-title">Отделка и ремонт квартир</div>
+                        <div class="service__item-text">Профессиональная отделка и ремонт квартир, превращающая ваши идеи в реальность и создающая уютное и красивое жилище.</div>
+                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                    </div>
+                    <div class="service__item service__itemBG2">
+                        <div class="service__item-title">Дизайн интерьера</div>
+                        <div class="service__item-text">Создание удобных и стильных интерьеров, отражающих вашу индивидуальность и предоставляющих комфортное пространство для жизни.</div>
+                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                    </div>
+                    <div class="service__item service__itemBG3">
+                        <div class="service__item-title">Отделка и ремонт комм. недвижимости</div>
+                        <div class="service__item-text">Качественная отделка и ремонт комм. недвижимости для привлекательного и удобного рабочего пространство вашего бизнеса.</div>
+                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                    </div>
+                    <div class="service__item service__itemBG4">
+                        <div class="service__item-title">Отделка и ремонт частных домов</div>
+                        <div class="service__item-text">Индивидуальный ремонт частных домов для уникального и комфортного жилья, отвечающего вашим потребностям.</div>
+                        <a href="#"><button class="service__item-button">Перейти</button></a>
+                    </div>
+                </div>
+                <div class="service__item service__itemBG5">
+                    <div class="service__item-cont">
+                        <div class="service__item-title">Пакетный ремонт</div>
+                        <div class="service__item-text">Комплексный ремонт, включающий в себя закупку материалов, доставку их до объекта, отделку и ремонт помещения.</div>
+                    </div>
+                    <a href="#"><button class="service__item-button">Перейти</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="time">
+            <div class="container">
+                <h1 class="time__title">Как будет происходить ремонт?</h1>
+                <div class="time__items">
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg1.svg" alt="" class="time__itemImg time__itemImg1">
+                            <p>15-20 мин</p>
+                        </div>
+                        <p class="time__item-text">Консультация по телефону</p>
+                    </div>
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg2.svg" alt="" class="time__itemImg time__itemImg2">
+                            <p>30-60 мин</p>
+                        </div>
+                        <p class="time__item-text">Выезд сметчика на объект</p>
+                    </div>
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg3.svg" alt="" class="time__itemImg time__itemImg3">
+                            <p>20-40 мин</p>
+                        </div>
+                        <p class="time__item-text">Подписание договора</p>
+                    </div>
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg4.svg" alt="" class="time__itemImg time__itemImg4">
+                            <p>1 день</p>
+                        </div>
+                        <p class="time__item-text">Начало работ на объекте</p>
+                    </div>
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg5.svg" alt="" class="time__itemImg time__itemImg5">
+                            <p>2-3 дня</p>
+                        </div>
+                        <p class="time__item-text">Завоз материалов и инструментов</p>
+                    </div>
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg6.svg" alt="" class="time__itemImg time__itemImg6">
+                            <p>20-60 дней</p>
+                        </div>
+                        <p class="time__item-text">Проведение работ</p>
+                    </div>
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg7.svg" alt="" class="time__itemImg time__itemImg7">
+                            <p>1-2 часа</p>
+                        </div>
+                        <p class="time__item-text">Сдача-приёмка объекта</p>
+                    </div>
+                    <div class="time__item">
+                        <div class="time__item-circle">
+                            <img src="img/timeImg6.svg" alt="" class="time__itemImg time__itemImg6">
+                            <p>60 месяцев</p>
+                        </div>
+                        <p class="time__item-text">Гарантийное обслуживание</p>
+                    </div>
+                </div>
+                <div class="time__footer">
+                    <input type="number" placeholder="+7 _______________________________">
+                    <button>Обсудить проект</button>
+                    <p>От вас потребуется всего<span> 2-3 часа</span> вашего времени! Всё остальное мы сделаем за вас.</p>
+                </div>
+            </div>
+        </div>
+        <div class="application">
+            <div class="container">
+                <div class="application__line">
+                    <div class="application__header">
+                        <div class="application__header-block">
+                            <div class="application__alips"></div>
+                            <p>REC</p>
+                        </div>
+                        <img src="img/batery.svg" alt="">
+                    </div>
+                    <h1 class="application__titileMedia">Контроль работ через приложение 101Group</h1>
+                    <div class="application__main">
+                        <div class="applicationPhone-cont">
+                            <img src="img/applicationPhone.svg" alt="" class="applicationPhone">
+                        </div>
+                        <div class="application__main-cont">
+                            <div class="application__main-items">
+                                <h1 class="application__titile">Контроль работ через приложение 101Group</h1>
+                                <div class="application__item">
+                                    <p class="application__item-number">1.</p>
+                                    <p class="application__item-text">Прозрачная бухгалтерия внутри приложения</p>
+                                </div>
+                                <div class="application__item">
+                                    <p class="application__item-number">2.</p>
+                                    <p class="application__item-text">Общение с менеджером проекта</p>
+                                </div>
+                                <div class="application__item">
+                                    <p class="application__item-number">3.</p>
+                                    <p class="application__item-text">Видеонаблюдение на объекте</p>
+                                </div>
+                            </div>
+                            <p class="application__main-text">Всё это позволяет следить за процессом работы удалённо и в свободное время</p>
+                            <div class="application__main-block">
+                                <button class="application__main-button">Скачать</button>
+                                <a href="#" class="application__main-link">Скачайте <span>PDF-презентацию</span> с возможностями</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="container">
+                <h1 class="portfolio__title">Портфолио</h1>
+                <div class="slider single-item">
+                    <div>
+                        <div class="portfolio__cont">
+                            <div class="portfCont">
+                                <div class="portfolioOne">
+                                    <div class="slider single-itemBig2">
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolioTwo">
+                                    <div class="slider single-item2">
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolioTree">
+                                <p class="portfolioTree__title">КВАРТИРА НА НАХИМОВСКОМ</p>
+                                <p class="portfolioTree__text">Интерьер квартиры площадью 150 м2 на Нахимовском проспекте идеально сочетает эстетику и стиль.</p>
+                                <div class="portfolio__info">
+                                    <p class="portfolio__info-item"><span>Площадь: </span>100кв.м</p>
+                                    <p class="portfolio__info-item"><span>Сроки: </span>60 дней</p>
+                                    <p class="portfolio__info-item"><span>Стоимость работ: </span>200.000 рублей</p>
+                                    <p class="portfolio__info-item"><span>Стоимость материалов: </span>100.000 рублей</p>
+                                    <p class="portfolio__info-item"><span>Цена у конкурентов: </span>350.000 рублей</p>
+                                </div>
+                                <div class="portfolio__info-button-cont">
+                                    <button class="portfolio__info-button">Хочу такой же!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="portfolio__cont">
+                            <div class="portfCont">
+                                <div class="portfolioOne">
+                                    <div class="slider single-itemBig2">
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slideBig">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolioTwo">
+                                    <div class="slider single-item2">
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg3.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg1.svg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                        <img src="img/portfolioImg2.svg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolioTree">
+                                <p class="portfolioTree__title">КВАРТИРА НА НАХИМОВСКОМ</p>
+                                <p class="portfolioTree__text">Интерьер квартиры площадью 150 м2 на Нахимовском проспекте идеально сочетает эстетику и стиль.</p>
+                                <div class="portfolio__info">
+                                    <p class="portfolio__info-item"><span>Площадь: </span>100кв.м</p>
+                                    <p class="portfolio__info-item"><span>Сроки: </span>60 дней</p>
+                                    <p class="portfolio__info-item"><span>Стоимость работ: </span>200.000 рублей</p>
+                                    <p class="portfolio__info-item"><span>Стоимость материалов: </span>100.000 рублей</p>
+                                    <p class="portfolio__info-item"><span>Цена у конкурентов: </span>350.000 рублей</p>
+                                </div>
+                                <div class="portfolio__info-button-cont">
+                                    <button class="portfolio__info-button">Хочу такой же!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <div class="container">
+                <h1 class="team__title">Команда, которой можно доверять</h1>
+                <div class="team__slider">
+                    <div class="slider single-team">
+                        <div class="full__team">
+                            <img src="img/fullTeamImg.svg" alt="">
+                            <p class="full__team-text"><span>"Служба ремонта"</span> — это команда профессионалов с более чем 14-летним опытом в отрасли. Мы с гордостью завершили более <span>500 успешных проектов,</span> обеспечивая высокое качество и надежность в каждой детали. Наше мастерство и страсть к созданию превосходных интерьеров делают нас надежным выбором для ваших потребностей в ремонте и отделке.</p>
+                        </div>
+                        <div class="team__member-media">
+                            <div class="team__member">
+                                <img src="img/team__memberImg1.svg" alt="">
+                                <div class="team__member-info">
+                                    <h1 class="team__member-title">Лидер команды</h1>
+                                    <p class="team__member-text">Кайзен Алексей</p>
+                                    <p class="team__member-experience"><span>Опыт работы:</span> 10 лет</p>
+                                </div>
+                            </div>
+                            <div class="team__member">
+                                <img src="img/team__memberImg2.svg" alt="">
+                                <div class="team__member-info">
+                                    <h1 class="team__member-title">Должность</h1>
+                                    <p class="team__member-text">Имя Фамилия</p>
+                                    <p class="team__member-experience"><span>Опыт работы:</span> 5 лет</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__member-media">
+                            <div class="team__member">
+                                <img src="img/team__memberImg1.svg" alt="">
+                                <div class="team__member-info">
+                                    <h1 class="team__member-title">Лидер команды</h1>
+                                    <p class="team__member-text">Кайзен Алексей</p>
+                                    <p class="team__member-experience"><span>Опыт работы:</span> 10 лет</p>
+                                </div>
+                            </div>
+                            <div class="team__member">
+                                <img src="img/team__memberImg2.svg" alt="">
+                                <div class="team__member-info">
+                                    <h1 class="team__member-title">Должность</h1>
+                                    <p class="team__member-text">Имя Фамилия</p>
+                                    <p class="team__member-experience"><span>Опыт работы:</span> 5 лет</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="certificate">
+            <div class="container">
+                <h2 class="certificate__title">Сертификаты на проведение работ</h2>
+                <div class="certificate__cont">
+                    <div class="certificate__container">
+                        <img src="img/certificate.svg" alt="">
+                        <img src="img/certificate.svg" alt="">
+                    </div>
+                    <div class="certificate__claim">
+                        <h1 class="certificate__claim-title">ОСТАВЬТЕ ЗАЯВКУ ПРЯМО СЕЙЧАС</h1>
+                        <p class="certificate__claim-text">И получите _________________________________</p>
+                        <div class="certificate__claim-inputs">
+                            <input type="text" placeholder="Имя">
+                            <input type="tel" placeholder="Номер телефона">
+                        </div>
+                        <button class="certificate__claim-button">Отправить!</button>
+                        <p class="certificate__claim-subtext">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="container">
+                <h1 class="reviews__title">Отзывы наших клиентов</h1>
+                <div class="reviews__items">
+                    <div class="reviews__img">
+                        <img src="img/reviewsImg1.svg" alt="" >
+                    </div>
+                    <div class="reviews__item">
+                        <img src="img/reviewsImg2.svg" alt="">
+                        <img src="img/reviewsImg2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="transparent">
+            <div class="container">
+                <h1 class="transparent__title">У нас всё прозрачно!</h1>
+                <p class="transparent__text">Вы можете ознакомиться с шаблонами договоров перед тем, как заключать их.</p>
+                <div class="transparent__blocks">
+                    <img src="img/transparentImg.svg" alt="" class="transparentImg1">
+                    <div class="transparent__block">
+                        <img src="img/transparentImg2.svg" alt="" class="transparentImg2">
+                        <div class="transparent__block-cont">
+                            <button class="transparent__button">Как выглядит КП?</button>
+                            <div class="transparent__block-text">
+                                <p>Скачайте образец нашего КП</p>
+                                <img src="img/transparentImg3.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <div class="container">
+                <div class="question__cont">
+                    <div class="question__title">Мы знаем, что волнует наших клиентов перед началом ремонта</div>
+                    <div class="question__link-cont">
+                        <a href="https://wa.me/79887620392" class="question__link">Задать вопрос в WhatsApp <img src="img/whatsapp.svg" alt=""></a>
+                        <div class="question__line"></div>
+                    </div>
+                </div>
+                <div class="QuestionAnswer">
+                <div class="QuestionAnswer__blocks">
+                    <div class="collapse">
+                    <div class="collapse__content">
+                        <p>Вопрос 1</p>
+                        <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.10487 10.9008C0.519081 11.4865 0.519081 12.4363 1.10487 13.0221L10.6508 22.568C11.2366 23.1538 12.1863 23.1538 12.7721 22.568C13.3579 21.9822 13.3579 21.0325 12.7721 20.4467L4.28685 11.9614L12.7721 3.47614C13.3579 2.89036 13.3579 1.94061 12.7721 1.35482C12.1863 0.769036 11.2366 0.769036 10.6508 1.35482L1.10487 10.9008ZM25.8291 10.4614L2.16553 10.4614L2.16553 13.4614L25.8291 13.4614L25.8291 10.4614Z" fill="black"/>
+                        </svg>
+                    </div>
+                    <div class="wrapper">
+                        <p class="list">
+                            Вы можете ознакомиться с шаблонами договоров перед тем, как заключать их.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="collapse">
+                    <div class="collapse__content">
+                        <p>Вопрос 2</p>
+                        <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.10487 10.9008C0.519081 11.4865 0.519081 12.4363 1.10487 13.0221L10.6508 22.568C11.2366 23.1538 12.1863 23.1538 12.7721 22.568C13.3579 21.9822 13.3579 21.0325 12.7721 20.4467L4.28685 11.9614L12.7721 3.47614C13.3579 2.89036 13.3579 1.94061 12.7721 1.35482C12.1863 0.769036 11.2366 0.769036 10.6508 1.35482L1.10487 10.9008ZM25.8291 10.4614L2.16553 10.4614L2.16553 13.4614L25.8291 13.4614L25.8291 10.4614Z" fill="black"/>
+                        </svg>
+                    </div>
+                    <div class="wrapper">
+                        <p class="list">
+                            Вы можете ознакомиться с шаблонами договоров перед тем, как заключать их.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="collapse">
+                    <div class="collapse__content">
+                        <p>Вопрос 3</p>
+                        <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.10487 10.9008C0.519081 11.4865 0.519081 12.4363 1.10487 13.0221L10.6508 22.568C11.2366 23.1538 12.1863 23.1538 12.7721 22.568C13.3579 21.9822 13.3579 21.0325 12.7721 20.4467L4.28685 11.9614L12.7721 3.47614C13.3579 2.89036 13.3579 1.94061 12.7721 1.35482C12.1863 0.769036 11.2366 0.769036 10.6508 1.35482L1.10487 10.9008ZM25.8291 10.4614L2.16553 10.4614L2.16553 13.4614L25.8291 13.4614L25.8291 10.4614Z" fill="black"/>
+                        </svg>
+                    </div>
+                    <div class="wrapper">
+                        <p class="list">
+                            Вы можете ознакомиться с шаблонами договоров перед тем, как заключать их.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="collapse">
+                    <div class="collapse__content">
+                        <p>Вопрос 4</p>
+                        <svg width="26" height="23" viewBox="0 0 26 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.10487 10.9008C0.519081 11.4865 0.519081 12.4363 1.10487 13.0221L10.6508 22.568C11.2366 23.1538 12.1863 23.1538 12.7721 22.568C13.3579 21.9822 13.3579 21.0325 12.7721 20.4467L4.28685 11.9614L12.7721 3.47614C13.3579 2.89036 13.3579 1.94061 12.7721 1.35482C12.1863 0.769036 11.2366 0.769036 10.6508 1.35482L1.10487 10.9008ZM25.8291 10.4614L2.16553 10.4614L2.16553 13.4614L25.8291 13.4614L25.8291 10.4614Z" fill="black"/>
+                        </svg>
+                    </div>
+                    <div class="wrapper">
+                        <p class="list">
+                            Вы можете ознакомиться с шаблонами договоров перед тем, как заключать их.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="question__link-cont question__link-contNone">
+                    <a href="https://wa.me/79887620392" class="question__link">Задать вопрос в WhatsApp <img src="img/whatsapp.svg" alt=""></a>
+                    <div class="question__line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="request">
+            <div class="container">
+                <div class="request__title-cont">
+                    <h1 class="request__title">ОСТАВЬТЕ ЗАЯВКУ ПРЯМО СЕЙЧАС</h1>
+                    <p class="request__text">И получите бесплатную консультацию</p>
+                </div>
+                <div class="request__inputs">
+                    <div class="certificate__claim-inputs">
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Номер телефона">
+                    </div>
+                    <div class="request__inputs-checkbox">
+                        <div class="request__inputs-checkbox-item">
+                            <input type="radio" id="request__inputs1" value="1" name="request" checked>
+                            <label for="request__inputs1">Квартира</label>
+                        </div>
+                        <div class="request__inputs-checkbox-item">
+                            <input type="radio" id="request__inputs2" value="2" name="request">
+                            <label for="request__inputs2">Комм. недвижимость</label>
+                        </div>
+                        <div class="request__inputs-checkbox-item">
+                            <input type="radio" id="request__inputs3" value="3" name="request">
+                            <label for="request__inputs3">Загородный дом</label>
+                        </div>
+                        <div class="request__inputs-checkbox-item">
+                            <input type="radio" id="request__inputs4" value="4" name="request">
+                            <label for="request__inputs4">Дизайн-проект</label>
+                        </div>
+                    </div>
+                    <button>Отправить</button>  
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <div class="footer__items-cont">
+                    <div class="footer__items-container">
+                        <div class="footer__items footer__itemsG">
+                            <div class="footer__item"><a href="#">Главная</a></div>
+                            <div class="footer__item footer__item-func" onclick="footerFunction()">
+                                <p>Услуги</p>
+                                <img src="img/arrowDown.svg" alt="" id="footer__img">
+                            </div>
+                            <div class="footer__links" id="footer__f">
+                                <a href="#" class="footer__link">link1</a>
+                                <a href="#" class="footer__link">link2</a>
+                                <a href="#" class="footer__link">link3</a>
+                            </div>
+                            <div class="footer__item"><a href="#">Стоимость</a></div>
+                            <div class="footer__item"><a href="#">Портфолио</a></div>
+                        </div>
+                        <div class="footer__items footer__itemsG">
+                            <div class="footer__item footer__itemW"><a href="#">Процесс работы</a></div>
+                            <div class="footer__item"><a href="#">Отзывы</a></div>
+                            <div class="footer__item"><a href="#">Вопрос-ответ</a></div>
+                        </div>
+                    </div>
+                    <div class="footer__items footer__itemsM">
+                        <div class="footer__item footer__info-item">
+                            <a href="#">
+                                <img src="img/whatsappFooter.svg" alt="">
+                                <a href="https://wa.me/79887620392" class="footer__info footer__infoW">+7 (988) 762-03-92 написать в WhatsApp</a>
+                            </a>
+                        </div>
+                        <div class="footer__item footer__info-item">
+                            <a href="#">
+                                <img src="img/maps.svg" alt="">
+                                <a href="https://maps.app.goo.gl/XW76UbbqM55xCP666" class="footer__info">г. Новороссийск, ул. Энгельса, д. 47</a>
+                            </a>
+                        </div>
+                        <div class="footer__item footer__info-item">
+                            <img src="img/time.svg" alt="">
+                            <p class="footer__info">с 9:00 до 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__politics">
+                    <p class="footer__politics-title">Политика конфиденциальности</p>
+                    <p class="footer__politics-text">2023. Все права защищены.</p>
+                    <button class="footer__politics-button">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
