@@ -68,6 +68,3 @@ function burgerNoneFunc() {
 	headerInner.style.display = 'flex'
 	headerInfo.style.paddingTop = '0px'
 }
-
-// Добавляем обработчик события 'click' на меню бургера
-burgerMenu.addEventListener('click', toggleClass)
