@@ -26,8 +26,8 @@ footerFunction()
 
 
 $('.single-item').slick({
-	prevArrow: "<img src='../img/sliderLeft.svg' class='prev' alt='1'>",
-	nextArrow: "<img src='../img/sliderRight.svg' class='next' alt='2'>",
+	prevArrow: "<img src='./img/sliderLeft.svg' class='prev' alt='1'>",
+	nextArrow: "<img src='./img/sliderRight.svg' class='next' alt='2'>",
 })
 $('.single-item2').slick({
 	arrows: false,
@@ -45,8 +45,8 @@ $('.single-itemBig2').slick({
 })
 
 $('.single-team').slick({
-	prevArrow: "<img src='../img/sliderLeft-team.svg' class='prev' alt='1'>",
-	nextArrow: "<img src='../img/sliderRight-team.svg' class='next' alt='2'>",
+	prevArrow: "<img src='./img/sliderLeft-team.svg' class='prev' alt='1'>",
+	nextArrow: "<img src='./img/sliderRight-team.svg' class='next' alt='2'>",
 	variableWidth: true,
 })
 
